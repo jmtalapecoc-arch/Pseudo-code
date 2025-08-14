@@ -1,0 +1,15 @@
+START
+    Gather all the ingredients
+    IF all the ingredients are complete THEN
+        Roll and shape into circle
+        Spread sauce and cheese and toppings
+        Bake for 10–15 minutes until crust is golden
+        Slice and enjoy
+    ELSE
+        Buy ingredients
+        Roll and shape into circle
+        Spread sauce and cheese and toppings
+        Bake for 10–15 minutes until crust is golden
+        Slice and enjoy
+    ENDIF
+END
