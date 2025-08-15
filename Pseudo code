@@ -1,15 +1,28 @@
 START
-    Gather all the ingredients
-    IF all the ingredients are complete THEN
-        Roll and shape into circle
-        Spread sauce and cheese and toppings
-        Bake for 10–15 minutes until crust is golden
-        Slice and enjoy
-    ELSE
-        Buy ingredients
-        Roll and shape into circle
-        Spread sauce and cheese and toppings
-        Bake for 10–15 minutes until crust is golden
-        Slice and enjoy
-    ENDIF
+
+// Step 1: Gather ingredients
+Gather all ingredients
+
+// Step 2: Check if ingredients are complete
+IF ingredients are not complete THEN
+    Buy missing ingredients
+END IF
+
+// Step 3: Prepare pizza base
+Roll dough and shape into a circle
+
+// Step 4: Add toppings
+Spread sauce evenly over dough
+Add cheese
+Add desired toppings
+
+// Step 5: Bake
+Place pizza in oven
+Bake for 10–15 minutes OR until crust is golden
+
+// Step 6: Finish
+Remove pizza from oven
+Slice pizza
+Enjoy pizza
+
 END
